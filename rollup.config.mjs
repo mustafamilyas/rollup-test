@@ -1,28 +1,28 @@
 // rollup.config.mjs
 import json from "@rollup/plugin-json";
 import terser from "@rollup/plugin-terser";
-import pkg from "./package.json" assert { type: "json" };
+import typescript from "rollup-plugin-typescript2";
 
 export default {
-  input: "src/main.js",
+  input: "src/main.ts",
   output: [
     {
-      file: pkg.main,
+      dir: "dist/cjs",
       format: "cjs",
     },
     {
-      file: pkg.module,
+      dir: "dist/esm",
       format: "es",
     },
     {
-      file: "dist/umd.js",
+      dir: "dist/iife",
       name: "rollupTest",
       format: "iife",
     },
     {
-      file: "dist/system.js",
+      dir: "dist/system",
       format: "system",
     },
   ],
-  plugins: [json(), terser()],
+  plugins: [json(), terser(), typescript()],
 };

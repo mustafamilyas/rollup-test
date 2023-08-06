@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.add=function(e,o){return e+o},exports.default=function(){console.log("Counting to 10...");for(let e=0;e<10;e++)console.log(e)},exports.substr=function(e,o){return e-o};
