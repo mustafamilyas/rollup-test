@@ -14,6 +14,15 @@ export default {
       file: pkg.module,
       format: "es",
     },
+    {
+      file: "dist/umd.js",
+      name: "rollupTest",
+      format: "iife",
+    },
+    {
+      file: "dist/system.js",
+      format: "system",
+    },
   ],
   plugins: [json(), terser()],
 };
