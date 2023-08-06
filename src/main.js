@@ -1,3 +1,5 @@
+import { version, name } from "../package.json";
+
 export default function main() {
-  console.log("Hello world!");
+  console.log(`Hello from ${name} v${version}!`);
 }
