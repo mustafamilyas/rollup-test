@@ -1,10 +1,1 @@
-'use strict';
-
-var name = "rollup-test";
-var version = "1.0.0";
-
-function main() {
-  console.log(`Hello from ${name} v${version}!`);
-}
-
-module.exports = main;
+"use strict";module.exports=function(){console.log("Hello from rollup-test v1.0.0!"),console.log("Counting to 10...");for(let o=0;o<10;o++)console.log(o)};
