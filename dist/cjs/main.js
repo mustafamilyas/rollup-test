@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.add=function(e,o){return e+o},exports.default=function(){console.log("Counting to 10...");for(let e=0;e<10;e++)console.log(e)},exports.substr=function(e,o){return e-o};
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.add=function(o,t){return o+t},exports.default=function(){console.log("Counting to ".concat(10,"..."));for(var o=0;o<10;o++)console.log(o)},exports.substr=function(o,t){return o-t};

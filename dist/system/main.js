@@ -1,1 +1,1 @@
-System.register([],(function(t){"use strict";return{execute:function(){t({add:function(t,n){return t+n},default:function(){console.log("Counting to 10...");for(let t=0;t<10;t++)console.log(t)},substr:function(t,n){return t-n}})}}}));
+System.register([],(function(n){"use strict";return{execute:function(){n({add:function(n,t){return n+t},default:function(){console.log("Counting to ".concat(10,"..."));for(var n=0;n<10;n++)console.log(n)},substr:function(n,t){return n-t}})}}}));
